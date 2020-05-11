@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <script type="text/javascript" src='requestdepreq.js'> </script> 
+  </head>
+  <body>
+    <label for="choosest">Departures for the station:</label>
+
+    <select id="station">
+        <option value="NOR">Norbury [NOR]</option>
+        <option value="ECR">East Croydon [ECR]</option>
+        <option value="PUR">Purley [PUR]</option>
+        <option value="VIC">London Victoria [VIC]</option>
+    </select>
+    <button onclick="httpGetAsync(station)">Click me</button>
+
+    <p id="result"></p>
+  </body>
+</html>
