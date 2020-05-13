@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>   
-    <script type="text/javascript" src='requestdepreq.js'> </script> 
-  </head>
-  <body>
-    <label for="choosest">Departures for the station:</label>
-
-    <select id="station">
-        <option value="NOR">Norbury [NOR]</option>
-        <option value="ECR">East Croydon [ECR]</option>
-        <option value="PUR">Purley [PUR]</option>
-        <option value="VIC">London Victoria [VIC]</option>
-    </select>
-    <button onclick="httpGetAsync(station)">Click me</button>
-
-    <p id="result"></p>
-  </body>
+    <head>
+        <script type="text/javascript" src='homepage.js'> </script> 
+    </head>
+    <body>
+        <h1 for="choosest" style="color:white">National Rail Information:</h1>
+        <button onclick="redirect('departures')" style="float:right;padding:10px">Departures</button>
+        <button onclick="redirect('arrivals')" style="float:right;padding:10px">Arrivals</button>
+    </body>
 </html>
