@@ -2577,9 +2577,9 @@ var station_list = [
         var output = ""
         for (var i = 0; i < Object.keys(station_list[0]).length ; i++) { 
 
-            output += ('<option value="' + Object.keys(station_list[0])[i] + '">' + station_list[0][Object.keys(station_list[0])[i]] + " [" + Object.keys(station_list[0])[i] + ']</option>')
+            output += (('"' + station_list[0][Object.keys(station_list[0])[i]] + " [" + Object.keys(station_list[0])[i] + ']": "') + Object.keys(station_list[0])[i] + '",')
 
-            console.log('<option value="' + Object.keys(station_list[0])[i] + '">' + station_list[0][Object.keys(station_list[0])[i]] + " [" + Object.keys(station_list[0])[i] + ']</option>')
+            console.log('"' + station_list[0][Object.keys(station_list[0])[i]] + " [" + Object.keys(station_list[0])[i] + ']",')
         }
         console.log(output)
     }
