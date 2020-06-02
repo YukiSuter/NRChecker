@@ -3,3 +3,6 @@ http://192.168.13.101/autopull.php?update=auhbdawhguwduihdwauhawd?from=yukisuter
 
 Git Repo URL:
 https://www.github.com/YukiSuter/NRChecker
+
+
+loool edit
