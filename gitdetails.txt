@@ -1,0 +1,5 @@
+Autopull URL:
+http://127.0.0.1/autopull.php?update=auhbdawhguwduihdwauhawd
+
+Git Repo URL:
+https://www.github.com/YukiSuter/NRChecker
